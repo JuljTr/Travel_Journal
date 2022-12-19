@@ -33,9 +33,24 @@ function App() {
     imageUrl: "https://source.unsplash.com/3PeSjpLVtLg"
   }
   ]
+
+  const cards = data.map(item => {
+    return (
+      <Card
+        key={item.id}
+        img={item.imageUrl}
+        title={item.title}
+        location={item.location}
+        googleMap={item.googleMapsUrl}
+        startDate={item.startDate}
+        endDate={item.endDate}
+        description={item.description}
+      />
+    )
+  })
   return (
     <div className="App">
-      <Card />
+      {cards}
     </div>
   );
 }
