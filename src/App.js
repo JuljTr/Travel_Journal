@@ -50,6 +50,9 @@ function App() {
   })
   return (
     <div className="App">
+      <header>
+        <span></span>
+        <p>my travel journal.</p></header>
       {cards}
     </div>
   );

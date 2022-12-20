@@ -1,0 +1,32 @@
+.card {
+    max-width: 30em;
+    padding: 8px 40px 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-image {
+    width: 8em;
+    border-radius: 0.3rem;
+}
+
+.card-info {
+    width: 35rem;
+}
+
+.location-info {
+    width: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.country {
+    width: 4.5rem;
+    font-size: 0.63rem;
+}
+
+.title {
+    font-size: 1.56rem;
+}
