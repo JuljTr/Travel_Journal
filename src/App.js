@@ -1,5 +1,6 @@
 import './App.css';
-import Card from './Components/Card'
+import Card from './Components/Card';
+import globeIcon from './icon/globe.png'
 
 function App() {
   const data = [{
@@ -51,7 +52,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <span></span>
+      <span><img src={globeIcon} className="globe-icon" alt='globe-icon'/></span>
         <p>my travel journal.</p></header>
       {cards}
     </div>

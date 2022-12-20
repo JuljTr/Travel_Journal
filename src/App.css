@@ -17,16 +17,46 @@
 
 .location-info {
     width: 20rem;
+    padding-left: 19px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
 }
 
 .country {
-    width: 4.5rem;
+    padding: 0 12px 0 4px;
+    text-align: center;
+    font-weight: 400;
     font-size: 0.63rem;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
 }
 
-.title {
+.link, a {
+    color: #918E9B;
+    font-size: 0.63rem;
+    font-weight: 400;
+}
+
+.card-title {
+    margin-top: 4px;
+    height: 2.06rem;
     font-size: 1.56rem;
+    padding-left: 19px;
+}
+
+.dates {
+    margin-top: 14px;
+    height: 0.69rem;
+    font-size: 0.63rem;
+    font-weight: 800;
+    padding-left: 19px;
+}
+
+.description {
+    margin-top: 9px;
+    padding-left: 19px;
+    font-size: 0.63rem;
+    font-weight: 500;
+    line-height: 15px;
 }
